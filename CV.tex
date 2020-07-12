@@ -1,0 +1,66 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo{./examples/profile.png}
+\name{William}{Kane}
+\position{Graduate {\enskip\cdotp\enskip}Curriculum Vitae}
+\address{Wrexham / Liverpool - 19/12/1996}
+
+\mobile{: 07475767472}
+\email{: billy.kanee@gmail.com}
+%\homepage{www.posquit0.com}
+%\github{posquit0}
+\linkedin{ LinkedIn: william-kane-004436170}
+%\gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+%-------------------------------------------------------------------------------
+%   HEADER AND FOOTER
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {William Kane~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\input{cv/summary.tex}
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\newpage
+\input{cv/achievements.tex}
+\input{cv/references.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
