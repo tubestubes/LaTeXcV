@@ -1,3 +1,4 @@
+% !TEX program = xelatex
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
@@ -20,16 +21,15 @@
 % Colors for text
 % Uncomment if you would like to specify your own color
 % \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{text}{HTML}{414141}
+% \definecolor{graytext}{HTML}{414141}
+% \definecolor{lighttext}{HTML}{414141}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -42,8 +42,8 @@
 \address{38 Woodridge Ave\\ Marford\\ Wrexham\\ LL128SS}
 \mobile{: 07475767472}
 \email{: billy.kanee@gmail.com}
-%\homepage{www.posquit0.com}
-%\github{posquit0}
+%\homepage{tubestubes.github.io}
+%\github{tubestubes}
 %\linkedin{ LinkedIn: william-kane-004436170}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
@@ -64,12 +64,15 @@
 %-------------------------------------------------------------------------------
 % 
 \recipient
-  {Company}
-  {ad 1\\ad2\\ad3}
+  {COMPANY}
+  {ADDRESS\\
+	ADDRESS\\
+	ADDRESS\\
+	ADDRESS}
 
 \letterdate{\today}
 
-\lettertitle{RE: Job Application for JOB}
+\lettertitle{RE: Job Application for machine learning scientist, band C}
 
 \letteropening{Dear Sir/Madam}
 
@@ -81,18 +84,13 @@
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[R]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
   {William Kane~~~·~~~Cover Letter}
-  {}
+  {\thepage}
 
-% Print the title with above letter informations
 \makelettertitle
 
 %-------------------------------------------------------------------------------
@@ -101,13 +99,13 @@
 \begin{cvletter}
 
 \lettersection{About Me}
+CONTENT
 
-
-\lettersection{Why COMPANY?}
+\lettersection{Why APEM?}
+CONTENT 
 
 \lettersection{Why Me?}
-
-
+CONTENT
 \end{cvletter}
 
 
