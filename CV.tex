@@ -2,10 +2,20 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[12pt, a4paper]{awesome-cv}
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 \fontdir[fonts/]
 \colorlet{awesome}{awesome-red}
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
@@ -19,7 +29,7 @@
 \address{Wrexham / Liverpool}
 \mobile{: 07475767472}
 \email{: billy.kanee@gmail.com}
-\homepage{tubestubes.github.io}
+%\homepage{tubestubes.github.io}
 \github{: tubestubes}
 \linkedin{ LinkedIn: william-kane-004436170}
 %\gitlab{gitlab-id}
@@ -33,7 +43,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-%\quote{``Be the change that you want to see in the world."}
+\quote{More details can be found on my online CV at tubestubes.github.io}
 
 %-------------------------------------------------------------------------------
 %   HEADER AND FOOTER
@@ -46,11 +56,11 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
+
 \makecvfooter
   {\today}
   {William Kane~~~·~~~Curriculum Vitae}
   {\thepage}
-
 
 %-------------------------------------------------------------------------------
 %	Body
@@ -58,7 +68,7 @@
 \cvsection{Summary}
 
 \begin{cvparagraph}
-New graduate with a focus on data analysis, mathematics, statistics, and python. Looking to hit the ground running and start a career in Liverpool or Cheshire. Suited to data analysis roles with routes for progression. My career goal is to take responsibility for data modelling and analysis at a senior or managerial level, using the latest techniques and work-flows, and intelligent automated systems. Keen to engage, learn, and work at a fast pace.
+New graduate with a focus on data analysis, statistics, mathematics, and python. Looking to hit the ground running and start a career in Liverpool or Cheshire. Suited to data analysis roles with routes for progression. My career goal is to take responsibility for data modelling and analysis at a senior or managerial level, using the latest techniques and work-flows, and intelligent automated systems. Keen to engage, learn, and work at a fast pace.
 \end{cvparagraph}
 
 %---------------------------------------------------------
@@ -67,7 +77,7 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
 
   \cvskill
     {Mathematics} % Category
-    {Modelling, Statistics, Optimisation, Numerical Methods, Maple} % Skills
+    {Statistics (with Bayesian), Modelling, Optimisation, Numerical Methods, Maple} % Skills
 
   \cvskill
     {Python} % Category
@@ -75,11 +85,11 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
 
   \cvskill
     {Software} % Category
-    {SQL, Microsoft Office, LaTeX, Julia, Maple, MATLAB, R/RStudio, Git/GitHub with Git Bash, Docker, Ubuntu} % Skills
+    {SQL, R/RStudio, Julia, Maple, MATLAB, Microsoft Office, LaTeX, Git/GitHub with Git Bash, Docker, Ubuntu} % Skills
     
   \cvskill
     {Professional} % Category
-    {Leadership, Life-long Learning, Team Work, Project Leadership, Communication and Presentation,  Time Management, Prioritisation } % Skills
+    {Leadership, Life-long Learning, Team Work, Project Leadership, Communication and Presentation, Time Management, Prioritisation } % Skills
 
 \end{cvskills}
 
@@ -94,11 +104,11 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
     {Sept. 2019 - Aug. 2020} % Date(s)
     {
       \begin{cvitems} % Description(s) bullet points
-        \item {\textbf{Modules include} Modern Management, Geographic Data Science, Data Mining, Monte Carlo, Risk Analysis}
-        \item {\textbf{Research project in} Agent-based modelling of mixed autonomous/human vehicles in a road network}
-        \item {Other projects include training an artificial neural network to act as a surrogate model in python, and advanced Monte Carlo methods in MATLAB.}
-      	\item {This course built on technical knowledge of Bachelors degree and focused on a deeper understanding of key concepts. I split my focus 50:50 between data science orientated and risk orientated modules, as well as general modules on Advanced Modern Management and Project Planning. The course concluded with a three month research project in which I developed object orientated python code to simulate the effects of driverless cars mixed with normal traffic on traffic flow, and wrote up a detailed analysis of the data I generated.}
-        \item {The skills developed in this degree built on what I had before while teaching me to work independently with minimal guidance, and to carefully plan and manage my ongoing projects to deliver each one on time without comprising quality. I also gained valuable technical knowledge in machine learning to be used in the future. } 
+        \item{\textbf{Modules include} Modern Management, Geographic Data Science, Data Mining, Monte Carlo, Risk Analysis}
+        \item{\textbf{Research project in} Agent-based modelling of mixed autonomous/human vehicles in a road network}
+        \item{Other projects include training an artificial neural network to act as a surrogate model in python, and advanced Monte Carlo methods in MATLAB.}
+      	\item{This course built on technical knowledge of Bachelors degree and focused on a deeper understanding of key concepts. I split my focus 50:50 between data science orientated and risk orientated modules, as well as general modules on Advanced Modern Management and Project Planning. The course concluded with a three month research project in which I developed object orientated python code to simulate the effects of driverless cars mixed with normal traffic on traffic flow, and wrote up a detailed analysis of the data I generated.}
+        \item{The skills developed in this degree built on what I had before while teaching me to work independently with minimal guidance, and to carefully plan and manage my ongoing projects to deliver each one on time without comprising quality. I also gained valuable technical knowledge in machine learning to be used in the future. } 
       \end{cvitems}
     }
 
@@ -138,7 +148,8 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
     }
 
 \end{cventries}
-
+%---------------------------------------------------------
+\newpage
 %---------------------------------------------------------
 \cvsection{Experience}
 \begin{cventries}
@@ -150,7 +161,8 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
     {Jun. 2018 - Aug. 2018} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {A fast paced and customer focused job where I developed skills in hospitality which can be transferred to other situations involving solving problems on the fly to provide clients with what they expect. }
+        \item{\textbf{Skills developed:} Customer Service, Delivering at Page, Managing a Quality Service, Teamwork}
+        \item {A fast paced and customer focused job where I developed skills in hospitality which can be transferred to other situations involving solving problems on the fly to provide clients with what they expect.}
       \end{cvitems}
 	}
 
@@ -161,6 +173,7 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
     {Sept. 2013 - Oct. 2014} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item{\textbf{Skills developed:} Communication and Presentation, Team Work, Supporting Others}
         \item {Tuition provided me an excellent opportunity to work with people and help them learn and develop their skills in maths and English. A satisfying job and one that taught me a lot about dealing with complex people and how to communicate clearly and affectively.}
       \end{cvitems}
     }
@@ -168,7 +181,49 @@ New graduate with a focus on data analysis, mathematics, statistics, and python.
 \end{cventries}
 
 %---------------------------------------------------------
-\newpage
+%\newpage
+%---------------------------------------------------------
+\cvsection{Side Projects}
+\begin{cventries}
+
+  \cventry
+    {Interactive visualisation of the data outputted from my masters' simulation} % Sub title
+    {R Shiny Dashboard} % Main title
+    {} % rhs red
+    {} % rhs sub
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item{\textbf{Skills developed:} Interactive visualisation, Data Dashboards, R, R Shiny}
+        \item{To learn the ropes of R Shiny and creating dashboards, I developed an interative web interface to visualise the data from the various simulations I ran while collecting data in for my masters' dissertation.}
+      \end{cvitems}
+	}
+
+  \cventry
+    {Github pages website created with R Markdown} % Sub title
+    {Personal Website} % Main title
+    {} % rhs red
+    {} % rhs sub
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item{\textbf{Skills developed:} R, R Markdown, Basic Web Development}
+        \item{I developed a minimalist website to function as an online CV, hosted on Github Pages. I used this to learn the ropes of R Markdown}
+      \end{cvitems}
+	}
+
+  \cventry
+    {Jekyll website hosted on GitHib Pages} % Sub title
+    {Local Business Website} % Main title
+    {} % rhs red
+    {} % rhs sub
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item{\textbf{Skills developed:} Basic Web Development, R, SEO}
+        \item{I used Jeykll to create a simple static website for a new local buisess.}
+      \end{cvitems}
+	}
+
+\end{cventries}
+
 %---------------------------------------------------------
 \cvsection{Achievements}
 \begin{cvhonors}
